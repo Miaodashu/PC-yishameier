@@ -1,0 +1,189 @@
+body{
+    /*background: rgba(0,0,0,0.9);*/
+    background: url("../img/backgrond.jpg") repeat;
+    background-size: 50% 100%;
+}
+.Top{
+    width: 100%;
+    height:0.9rem;
+    position: fixed;
+    z-index: 1;
+    /*background: url("");*/
+    /*background-size: 100% 100%;*/
+}
+.Top .nav{
+    width: 100%;
+    height: 0.9rem;
+    display: flex;
+    padding-left: 0.8rem;
+    padding-right:0.8rem;
+    box-sizing: border-box;
+    background:rgba(0,0,0,0.2);
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Top .navLeft{
+    width: 1.64rem;
+    height: 0.69rem;
+
+    /*background: green;*/
+}
+.Top .navLeft a{
+    display: flex;
+    width: 1.64rem;
+    height: 0.69rem;
+}
+.Top .navLeft img{
+    width: 1.64rem;
+    height: 0.69rem;
+    float: left;
+    background-size: 100% 100%;
+}
+.Top .navRight{
+    width: 9.75rem;
+    height: 0.9rem;
+    /*background: pink;*/
+}
+.Top .navRight li{
+    height:0.9rem;
+    width: 1rem;
+    /*background:rgba(0,0,0,0.5);*/
+    float: left;
+    position: relative;
+}
+.Top .navRight .dot{
+    height: 0.9rem;
+    width: 0.25rem;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Top .navRight .dot span{
+    width: 0.4rem;
+    height: 0.4rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.4rem;
+    color:#fff;
+}
+.Top .navRight li a{
+    width: 1rem;
+    height: 0.9rem;
+    font-size:0.14rem;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Top .navRight li .topLine{
+    width: 100%;
+    height: 0.02rem;
+    background: #fff;
+    position:absolute;
+    top: 0.12rem;
+    display: none;
+}
+.Top .navRight li .bottomLine{
+    width: 100%;
+    height: 0.02rem;
+    background: #fff;
+    position:absolute;
+    bottom:0.12rem;
+    display: none;
+}
+.Top .navRight li:hover .topLine{
+    display: block;
+    transform: translateY(0.12rem);
+}
+.Top .navRight li:hover .bottomLine{
+    display: block;
+    transform: translateY(-0.12rem);
+}
+.content{
+    height: 7.05rem;
+    width: 11.0rem;
+    margin:0 auto;
+    padding-top: 0.9rem;
+    box-sizing: border-box;
+    /*background: yellow;*/
+}
+.content .lead{
+    height: 0.66rem;
+    width:100%;
+    font-size: 0.14rem;
+    color:#fff;
+    text-align: right;
+    line-height: 0.66rem;
+    /*background: red;*/
+}
+.content .lead a {
+    color:#fff;
+    font-size: 0.14rem;
+}
+.content .contentText{
+    height: 5.49rem;
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.content .contentText .text1{
+    height: 0.75rem;
+    width: 100%;
+}
+.content .contentText .text1 h3{
+    font-size: 0.24rem;
+    coor:#fff;
+    text-align: center;
+    line-height: 0.75rem;
+}
+.content .contentText .text2{
+    height: 0.28rem;
+    width: 100%;
+    font-size: 0.16rem;
+    text-align: center;
+}
+.content .contentText .text2 a{
+    font-size: 0.16rem;
+}
+.content .contentText .text2 a:nth-child(2){
+    color:orange;
+}
+.content .contentText .text2 a:hover{
+    color:orange;
+}
+.content .swiper-container {
+    width: 100%;
+    height: 4.46rem;
+    overflow-y: auto;
+}
+.content .swiper-container::-webkit-scrollbar{
+    height: 0;
+}
+.content .swiper-slide {
+    font-size: 18px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0.3rem;
+}
+.content .swiper-slide h3{
+    font-size: 0.2rem;
+    text-align: center;
+}
+.content .swiper-slide h4{
+    font-size: 0.18rem;
+    text-align: left;
+    color:lightskyblue;
+    line-height: 0.3rem;
+}
+
+.content .swiper-slide span{
+    font-size: 0.14rem;
+}
+.content .swiper-slide .black{
+    width: 100%;
+    height: 0.3rem;
+}
+

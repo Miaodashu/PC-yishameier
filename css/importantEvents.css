@@ -1,0 +1,308 @@
+body{
+    /*background: rgba(0,0,0,0.9);*/
+    background: url("../img/backgrond.jpg") repeat;
+    background-size: 50% 100%;
+}
+.Top{
+    width: 100%;
+    height:0.9rem;
+    position: fixed;
+    /*background: url("");*/
+    /*background-size: 100% 100%;*/
+}
+.Top .nav{
+    width: 100%;
+    height: 0.9rem;
+    display: flex;
+    padding-left: 0.8rem;
+    padding-right:0.8rem;
+    box-sizing: border-box;
+    background:rgba(0,0,0,0.2);
+    justify-content: space-between;
+    align-items: center;
+}
+.Top .navLeft{
+    width: 1.64rem;
+    height: 0.69rem;
+
+    /*background: green;*/
+}
+.Top .navLeft a{
+    display: flex;
+    width: 1.64rem;
+    height: 0.69rem;
+}
+.Top .navLeft img{
+    width: 1.64rem;
+    height: 0.69rem;
+    float: left;
+    background-size: 100% 100%;
+}
+.Top .navRight{
+    width: 9.75rem;
+    height: 0.9rem;
+    /*background: pink;*/
+}
+.Top .navRight li{
+    height:0.9rem;
+    width: 1rem;
+    /*background:rgba(0,0,0,0.5);*/
+    float: left;
+    position: relative;
+}
+.Top .navRight .dot{
+    height: 0.9rem;
+    width: 0.25rem;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Top .navRight .dot span{
+    width: 0.4rem;
+    height: 0.4rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.4rem;
+    color:#fff;
+}
+.Top .navRight li a{
+    width: 1rem;
+    height: 0.9rem;
+    font-size:0.14rem;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Top .navRight li .topLine{
+    width: 100%;
+    height: 0.02rem;
+    background: #fff;
+    position:absolute;
+    top: 0.12rem;
+    display: none;
+}
+.Top .navRight li .bottomLine{
+    width: 100%;
+    height: 0.02rem;
+    background: #fff;
+    position:absolute;
+    bottom:0.12rem;
+    display: none;
+}
+.Top .navRight li:hover .topLine{
+    display: block;
+    transform: translateY(0.12rem);
+}
+.Top .navRight li:hover .bottomLine{
+    display: block;
+    transform: translateY(-0.12rem);
+}
+.content{
+    height: 7.05rem;
+    width: 11.0rem;
+    margin:0 auto;
+    padding-top: 0.9rem;
+    box-sizing: border-box;
+    /*background: yellow;*/
+}
+.content .lead{
+    height: 0.66rem;
+    width:100%;
+    font-size: 0.14rem;
+    color:#fff;
+    text-align: right;
+    line-height: 0.66rem;
+    /*background: red;*/
+}
+.content .lead a {
+    color:#fff;
+    font-size: 0.14rem;
+}
+.content .contentText{
+    height: 5.49rem;
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.content .contentText .text1{
+    height: 0.75rem;
+    width: 100%;
+}
+.content .contentText .text1 h3{
+    font-size: 0.24rem;
+    coor:#fff;
+    text-align: center;
+    line-height: 0.75rem;
+}
+.content .contentText .text2{
+    height: 0.28rem;
+    width: 100%;
+    font-size: 0.16rem;
+    text-align: center;
+}
+.content .contentText .text2 a{
+    font-size: 0.16rem;
+}
+.content .contentText .text2 a:nth-child(4){
+    color:orange;
+}
+.content .contentText .text2 a:hover{
+    color:orange;
+}
+.content .swiper-container {
+    width: 100%;
+    height: 4.46rem;
+    overflow-y: auto;
+}
+.content .swiper-container::-webkit-scrollbar{
+    height: 0;
+}
+.content .swiper-slide {
+    font-size: 18px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.content .swiper-slide .cd-timeline-block{
+    height: 0.8rem;
+    width:100%;
+    padding-top: 0.2rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.content .swiper-slide .cd-picture{
+    height: 0.3rem;
+    width: 0.3rem;
+    border-radius: 50%;
+    background:#fff ;
+    box-sizing:border-box;
+    position: absolute;
+    border: 0.1rem solid lightskyblue;
+    top: 0.3rem;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+
+}
+.content .swiper-slide .cd-timeline-content{
+    width: 4.0rem;
+    /*height: 100%;*/
+    background: aliceblue;
+    float: left;
+    border-radius: 0.1rem;
+    box-sizing: border-box;
+    padding: 0.1rem;
+    position: relative;
+    margin-left: 0.6rem;
+    box-shadow: 0 0.03rem 0 #d7e4ed;
+}
+.content .swiper-slide .cd-timeline-content p{
+    font-size:0.14rem;
+}
+.content .swiper-slide .cd-timeline-content::before{
+    content: '';
+    position: absolute;
+    top:0.2rem;
+    left:100%;
+    height:0;
+    width:0;
+    border: 0.1rem solid transparent;
+    border-right: 0.07rem solid white;
+    border-color: transparent;
+    border-left-color: aliceblue;
+}
+.content .swiper-slide .cd-timeline-block::before{
+    content: "";
+    height: 100%;
+    width: 0.02rem;
+    background: #d7e4ed;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+.content .swiper-slide .cd-date {
+    position: absolute;
+    width: 1rem;
+    text-align: center;
+    left: 5.75rem;
+    top: 0.4rem;
+    font-size: 0.14rem;
+    float: left;
+    background: aliceblue;
+}
+.content .swiper-slide .cd-timeline-block2{
+    height: 0.8rem;
+    width:100%;
+    padding-top: 0.2rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.content .swiper-slide .cd-timeline-block2 .cd-picture{
+    height: 0.3rem;
+    width: 0.3rem;
+    border-radius: 50%;
+    background:#fff ;
+    box-sizing:border-box;
+    position: absolute;
+    border: 0.1rem solid lightskyblue;
+    top: 0.3rem;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+
+}
+.content .swiper-slide .cd-timeline-block2 .cd-timeline-content{
+    width: 4.0rem;
+    /*height: 100%;*/
+    background: aliceblue;
+    float: right;
+    border-radius: 0.1rem;
+    box-sizing: border-box;
+    padding: 0.1rem;
+    position: relative;
+    margin-right: 0.48rem;
+    box-shadow: 0 0.03rem 0 #d7e4ed;
+}
+.content .swiper-slide .cd-timeline-block2 .cd-timeline-content{
+    font-size: 0.14rem;
+}
+.content .swiper-slide .cd-timeline-block2 .cd-timeline-content::before{
+    content: '';
+    position: absolute;
+    top:0.14rem;
+    left:auto;
+    right:100%;
+    height:0;
+    width:0;
+    border: 0.1rem solid transparent;
+    border-left: 0.07rem solid white;
+    /*border-color: transparent;*/
+    border-right-color: aliceblue;
+}
+.content .swiper-slide .cd-timeline-block2::before{
+    content: "";
+    height: 100%;
+    width: 0.02rem;
+    background: #d7e4ed;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+.content .swiper-slide .cd-timeline-block2 .cd-date {
+    position: absolute;
+    width: 1rem;
+    text-align: center;
+    left:3.5rem;
+    top: 0.4rem;
+    font-size: 0.14rem;
+    float: left;
+    background: aliceblue;
+}

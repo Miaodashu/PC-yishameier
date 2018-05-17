@@ -1,0 +1,458 @@
+/*第一部分*/
+.sectionOne{
+    width: 100%;
+    height:6.62rem;
+    /*background: yellow;*/
+    background: url("../img/top01.jpg");
+    background-size:cover;
+    border-bottom:0.01rem solid rgba(0,0,0,0.3);
+    box-sizing: border-box;
+}
+.sectionOne .main{
+    width: 100%;
+    height: 1.75rem;
+}
+.sectionOne .header{
+    width: 100%;
+    height: 1.75rem;
+    background:rgba(0,0,0,0.2);
+    padding: 0.54rem 0 0;
+    box-sizing: border-box;
+    display: none;
+}
+.sectionOne .main:hover .header{
+    display: block;
+}
+.sectionOne .header .nav{
+    width: 100%;
+    height: 0.74rem;
+    display: flex;
+    justify-content: space-around;
+}
+.sectionOne .header .navLeft{
+    width: 1.64rem;
+    height: 0.74rem;
+    margin-left: 0.1rem;
+    /*background: green;*/
+}
+.sectionOne .header .navLeft a{
+    width: 1.64rem;
+    height: 0.74rem;
+    display: flex;
+}
+.sectionOne .header .navLeft img{
+    width: 1.64rem;
+    height: 0.74rem;
+    background-size: 100% 100%;
+}
+.sectionOne .header .navRight{
+    width: 9.75rem;
+    height: 0.74rem;
+    /*background: pink;*/
+}
+.sectionOne .header .navRight li{
+    height: 0.74rem;
+    width: 1rem;
+    /*background:rgba(0,0,0,0.5);*/
+    float: left;
+    position: relative;
+}
+.sectionOne .header .navRight .dot{
+    height: 0.74rem;
+    width: 0.25rem;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionOne .header .navRight .dot span{
+    width: 0.4rem;
+    height: 0.4rem;
+    font-size: 0.4rem;
+    text-align: center;
+   line-height: 0.4rem;
+    color:#fff;
+}
+.sectionOne .header .navRight li a{
+    width: 1rem;
+    height: 0.74rem;
+    font-size:0.14rem;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionOne .header .navRight li .topLine{
+    width: 100%;
+    height: 0.02rem;
+    background: #fff;
+    position:absolute;
+    top: 0;
+    display: none;
+}
+.sectionOne .header .navRight li .bottomLine{
+    width: 100%;
+    height: 0.02rem;
+    background: #fff;
+    position:absolute;
+    top: 0.7rem;
+    display: none;
+}
+.sectionOne .header .navRight li:hover .topLine{
+    display: block;
+    transform: translateY(0.12rem);
+}
+.sectionOne .header .navRight li:hover .bottomLine{
+    display: block;
+    transform: translateY(-0.12rem);
+}
+/*第二部分*/
+.sectionTwo{
+    width: 100%;
+    height:6.62rem;
+    /*background: green;*/
+    /*background: url("../img/001.jpg");*/
+    background-size: 100% 100%;
+}
+.sectionTwo .swiper-container {
+    width: 100%;
+    height: 100%;
+
+}
+.sectionTwo .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.sectionTwo .swiper-slide img{
+    width: 100%;
+    height: 6.62rem;
+    background-size: 100% 100%;
+}
+/*第三部分*/
+.sectionThree{
+    width: 100%;
+    height:6.62rem;
+    /*background: greenyellow;*/
+}
+.sectionThree  .boxList{
+    width:25%;
+    height: 3.31rem;
+    /*background: purple;*/
+    float:left;
+    border:0.01rem solid rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    background-image: url("../img/003.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+.sectionThree  .boxList:nth-child(1){
+    background-image: url("../img/index02.jpg");
+}
+.sectionThree  .boxList:nth-child(2){
+    background-image: url("../img/index04.jpg");
+    background-size: cover;
+}
+.sectionThree  .boxList:nth-child(3){
+    background-image: url("../img/index01.png");
+}
+.sectionThree  .boxList:nth-child(4){
+    background-image: url("../img/index05.jpg");
+}
+.sectionThree  .boxList:nth-child(5){
+    background-image: url("../img/index06.jpg");
+    background-size: cover;
+}
+.sectionThree  .boxList:nth-child(6){
+    background-image: url("../img/index07.jpg");
+    background-size: cover;
+}
+.sectionThree  .boxList:nth-child(7){
+    background-image: url("../img/index06.jpg");
+    background-size: cover;
+}
+.sectionThree  .boxList:nth-child(8){
+    background-image: url("../img/index06.jpg");
+    background-size: cover;
+}
+.sectionThree  .boxList:hover .zheZhao{
+    display: block;
+}
+.sectionThree  .boxList .tubiao{
+    width: 1.8rem;
+    height: 1.2rem;
+    background: rgba(0,0,0,0.3);
+    position:absolute;
+    bottom:0.1rem;
+    right:0.1rem;
+    transition: 1.0s;
+    visibility: hidden;
+    opacity: 0;
+}
+.sectionThree  .boxList:hover .tubiao{
+    box-shadow:0.06rem 0.06rem 0.06rem #333;
+    background:rgba(0,0,0,0.3);
+    /*transitio:1.5s;*/
+    visibility:visible;
+    opacity: 0.8;
+}
+.sectionThree  .boxList .tubiao .tubiaoContent{
+    width: 1.20rem;
+    height: 0.6rem;
+    border-top:0.02rem solid #fff;
+    border-bottom: 0.02rem solid #fff;
+    margin:0.16rem auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionThree  .boxList .tubiao .tubiaoContent p{
+    font-size: 0.18rem;
+    color:#fff;
+}
+.sectionThree  .boxList .tubiao .xia {
+    height: 0.24rem;
+    width: 0.24rem;
+    border-radius: 50%;
+    margin:0.1rem auto 0 ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionThree .boxList .tubiao .xia i{
+    height: 0.24rem;
+    width: 0.24rem;
+    font-size: 0.24rem;
+    color:#fff;
+}
+.sectionThree .boxList .zheZhao{
+    width:100%;
+    height: 3.31rem;
+    position:absolute;
+    background:rgba(0,0,0,0.5);
+    display: none;
+}
+.sectionFour{
+    width: 100%;
+    height:6.62rem;
+    background:#FCE9ED;
+    position: relative;
+}
+.sectionFour .pictureBox{
+    width: 7.19rem;
+    height: 100%;
+    background: #000;
+    position:absolute;
+    right: 0.5rem;
+    top:0;
+}
+.sectionFour .pictureBox .boxP{
+    width: 33.3333%;
+    height: 100%;
+    background:#C1E16B;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionFour .pictureBox .boxP:nth-child(3){
+    background: #FE8F8E;
+}
+.sectionFour .pictureBox .boxP:nth-child(2){
+       background: #94F0F2 ;
+}
+.sectionFour .pictureBox .boxP .text1{
+    height: 1.0rem;
+    width: 100%;
+    font-size: 1.25rem;
+    font-family: 新宋体;
+    color:#fff;
+    text-align: center;
+    line-height: 1.0rem;
+}
+.sectionFour .pictureBox .boxP .aa{
+    height: 1.91rem;
+    width: 1.91rem;
+    margin-top: 0.4rem;
+    border-radius: 50%;
+    display: flex;
+}
+.sectionFour .pictureBox .boxP a .circlePic{
+    height: 1.91rem;
+    width: 1.91rem;
+    border-radius: 50%;
+    /*background: red;*/
+}
+.sectionFour .pictureBox .boxP a .circlePic img{
+    height: 1.91rem;
+    width: 1.91rem;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    /*animation: carton 0.1s 1;*/
+}
+.sectionFour .pictureBox .boxP a .circlePic img:hover{
+    animation: carton 0.5s 1;
+}
+@keyframes carton {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(-16px, 0px);
+    }
+   /*50% {*/
+        /*transform: translate(0px, 0px);*/
+    /*}*/
+    75% {
+        transform: translate(16px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+.sectionFour .pictureBox .boxP .gekai{
+    height: 0.4rem;
+    width: 100%;
+}
+.sectionfour .pictureBox .boxP .textWord{
+    width: 100%;
+    height: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionFour .pictureBox .boxP .textWord a{
+    width: 100%;
+    height: 0.4rem;
+    display: block;
+    font-size: 0.24rem;
+    text-align: center;
+    /*line-height: 0.4rem;*/
+    color:#fff;
+}
+.sectionFour .pictureBox .boxP .boxP-line{
+    height: 0.02rem;
+    width: 1.17rem;
+    margin-top: 0.36rem;
+    background: #fff;
+}
+.sectionFive{
+    height: 4.10rem;
+    width: 100%;
+    background: #3D3938;
+}
+.sectionFive .bottom{
+    width: 12.0rem;
+    height: 4.0rem;
+    /*background: lawngreen;*/
+    padding:0.10rem 0 0;
+    box-sizing: border-box;
+    margin:0 auto;
+    font-family: "宋体";
+}
+.sectionFive .bottom a{
+    color:#999;
+}
+.sectionFive .bottom .sa:hover{
+    color:#fff;
+}
+.sectionFive .bottom .bottomNav{
+    width: 100%;
+    height: 0.56rem;
+    /*background: yellow;*/
+    font-size: 0.2rem;
+    line-height: 0.56rem;
+    border-bottom: 0.02rem solid #524e4d;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.sectionFive .bottom .bottomNav .searchBox{
+    width: 1.52rem;
+    height: 0.34rem;
+    border-radius: 0.1rem;
+    border:0.01rem solid #64605F;
+    box-sizing: border-box;
+    display:flex;
+    margin-left: 0.72rem;
+}
+.sectionFive .bottom .bottomNav .searchBox a{
+    width: 1.52rem;
+    height: 0.34rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.sectionFive .bottom .bottomNav .searchBox a .searchText{
+    width: 1.0rem;
+    height: 0.34rem;
+    border-top-left-radius: 0.1rem;
+    border-bottom-left-radius: 0.1rem;
+    line-height: 0.34rem;
+    color:#000;
+    background: #9E9E9E;
+}
+.sectionFive .bottom .bottomNav .searchBox a .searchIcon{
+    width: 0.5rem;
+    height: 0.34rem;
+    border-top-right-radius: 0.1rem;
+    border-bottom-right-radius: 0.1rem;
+    background: #747474;
+}
+.sectionFive .bottom .bottomNav .searchBox a .searchIcon i{
+    width: 0.52rem;
+    height: 0.34rem;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    line-height: 0.34rem;
+}
+.sectionFive .bottom .bottomContent{
+    height: 2.0rem;
+    width: 100%;
+    /*background: purple;*/
+    padding-top:0.30rem;
+    box-sizing: border-box;
+}
+.sectionFive .bottom .bottomContent ul{
+    width: 100%;
+    height: 2.0rem;
+}
+.sectionFive .bottom .bottomContent li{
+    width: 1.50rem;
+    height: 1.8rem;
+    line-height: 0.24rem;
+    float:left;
+}
+.sectionFive .bottom .bottomContent li a:hover{
+    color:#fff;
+}
+.sectionFive .bottom .bottomContent li h3 {
+    font-size: 0.16rem;
+    margin-bottom: 0.10rem;
+}
+.sectionFive .bottom .bottomContent li h3 a{
+    border-bottom: 0.01rem solid #999;
+    box-sizing: border-box;
+
+}
+.sectionFive .bottom .bottomContent li p{
+    font-size: 0.14rem;
+    color:#999;
+}
+

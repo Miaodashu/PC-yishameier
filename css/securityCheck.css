@@ -1,0 +1,193 @@
+body{
+    background:rgba(0,0,0,0.9);
+
+}
+.top{
+    height: 0.9rem;
+    width: 100%;
+
+}
+.center{
+    height: 5.2rem;
+    width: 12.0rem;
+    /*background: rgba(0,0,0,0.9);*/
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.center .content1{
+    height: 3.6rem;
+    width: 5.0rem;
+    background:#6A6767;
+    padding:0.3rem;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0.1rem 0.1rem  0.25rem #4B4848;
+    border-radius: 0.1rem;
+}
+.center .content1 h2{
+    font-size: 0.4rem;
+    text-align: center;
+    color:#fff;
+    font-family: "宋体";
+    margin-top: 0.3rem;
+}
+.center .content1 form .shuRu{
+    width: 3.94rem;
+    height: 0.48rem;
+    border-radius: 0.10rem;
+    display: flex;
+    border:0.01rem solid #fff;
+    box-sizing: border-box;
+    margin:0.44rem auto 0;
+    align-items: center;
+}
+.center .content1 .shuRu input{
+    width: 3.6rem;
+    height: 0.42rem;
+    font-size: 0.16rem;
+    margin-left: 0.10rem;
+    border: none;
+    background: none;
+}
+::-webkit-input-placeholder{
+    color:#fff;
+}
+.center .content1 .tiJiao{
+    width: 3.94rem;
+    height: 0.48rem;
+    border-radius: 0.10rem;
+    display: flex;
+    margin:0.6rem auto 0;
+    align-items: center;
+    background:#9D1313;
+    position: relative;
+}
+.center .content1 .tiJiao a .zheZhao{
+    width: 3.94rem;
+    height: 0.48rem;
+    border-radius: 0.10rem;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    position: absolute;
+    top: 0;
+    lfte:0;
+    display: none;
+}
+.center .content1 .tiJiao a:hover .zheZhao{
+    display: block;
+}
+.center .content1 .tiJiao a{
+    width: 3.94rem;
+    height: 0.42rem;
+    border-radius: 0.10rem;
+    display: flex;
+}
+.center .content1 .tiJiao .true{
+    width: 3.90rem;
+    height: 0.42rem;
+    border-radius: 0.15rem;
+    font-size: 0.16rem;
+    line-height: 0.42rem;
+    color:#fff;
+    text-align: center;
+    border: none;
+}
+.center .content2{
+    height: 3.6rem;
+    width: 5.0rem;
+    background:#6A6767;
+    padding:0.3rem;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0.1rem 0.1rem  0.25rem #4B4848;
+    border-radius: 0.1rem;
+}
+.center .content2 h2{
+    font-size: 0.4rem;
+    text-align: center;
+    color:#fff;
+    font-family: "宋体";
+    margin-top: 0.3rem;
+}
+.center .content2 form .shuRu{
+    width: 3.94rem;
+    height: 0.48rem;
+    border-radius: 0.10rem;
+    display: flex;
+    border:0.01rem solid #fff;
+    box-sizing: border-box;
+    margin:0.44rem auto 0;
+    align-items: center;
+}
+.center .content2 .shuRu input{
+    width: 3.6rem;
+    height: 0.42rem;
+    font-size: 0.16rem;
+    margin-left: 0.10rem;
+    border: none;
+    background: none;
+}
+::-webkit-input-placeholder{
+    color:#fff;
+}
+.center .content2 .tiJiao{
+    width: 3.94rem;
+    height: 0.48rem;
+    border-radius: 0.10rem;
+    display: flex;
+    margin:0.6rem auto 0;
+    align-items: center;
+    background:#9D1313;
+    position: relative;
+}
+.center .content2 .tiJiao a .zheZhao{
+    width: 3.94rem;
+    height: 0.48rem;
+    border-radius: 0.10rem;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    position: absolute;
+    top: 0;
+    lfte:0;
+    display: none;
+}
+.center .content2 .tiJiao a:hover .zheZhao{
+    display: block;
+}
+.center .content2 .tiJiao a{
+    width: 3.94rem;
+    height: 0.42rem;
+    border-radius: 0.10rem;
+    display: flex;
+}
+.center .content2 .tiJiao .true{
+    width: 3.90rem;
+    height: 0.42rem;
+    border-radius: 0.15rem;
+    font-size: 0.16rem;
+    line-height: 0.42rem;
+    color:#fff;
+    text-align: center;
+    border: none;
+}
+.center .otherSearch{
+    height: 1.34rem;
+    width:100%;
+    /*background: red;*/
+   /*float:left;*/
+    position: absolute;
+    /*line-height:1.34rem;*/
+    left:0;
+    bottom: 0.1rem;
+    padding:0 0.6rem;
+    box-sizing: border-box;
+}
+.center .otherSearch p{
+
+    font-size: 0.18rem;
+    color:#fff;
+    font-family: "宋体";
+}
